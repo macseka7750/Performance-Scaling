@@ -1,0 +1,14 @@
+django>=4.2
+djangorestframework
+dj-database-url
+psycopg2-binary
+python-decouple
+
+# ASYNC & CACHING
+celery>=5.3.0
+redis>=5.0.0
+django-redis>=5.4.0
+
+# MONITORING & PERFORMANCE
+flower>=2.0.0        # Dashboard for Celery tasks
+gunicorn             # Production-grade WSGI server
